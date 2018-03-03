@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Click:form</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<script src="form.js"> </script>		
+</head>
+<body>
+		<h1> #CLICK </h1>
+		<h3> WELCOME!!! ARE YOU A MODEL OR ASPIRING TO BE ONE, FILL THE FORM BELOW TO JOIN OUR FAMILY. </h3> 
+
+		<p id = "young" style="visibility: hidden;"> SORRY YOU ARE NOT ELIGIBLE!!! BUT YOU CAN JOIN OUR YOUNG MODELS COMMUNITY <a href="#">www.youngclick.com</a> </p>
+		
+		<div> 
+			<strong> NAME </strong> <br>
+			<input type="text" id="name" onmouseleave="showsex()" style="visibility: visible;"> 
+		</div>
+
+		<div id = "dsex"> 
+			<strong> SEX </strong> <br>
+			<input type="text" id="sex" onmouseleave="showage()"> 
+	    </div>
+
+	    <div id= "dage"> 
+			<strong> AGE </strong> <br> 
+			<input type="text" id="age" onmouseleave="showmail()">
+		</div>
+
+
+		<div id= "demail">
+			<strong> EMAIL </strong> <br>
+			<input type="EMAIL" id ="email" onmouseleave="showskin()">
+		</div>
+
+		<div id= "dskin">
+			<strong> SKIN COMPLEXION </strong> <br>
+			<input type="text" id ="skin" onmouseleave="showlocation()">
+		</div>
+
+		<div id= "dloc">
+			<strong> STATE OF RESIDENCE </strong> <br> 
+			<input type="text" id ="loc" onmouseleave="shownum()">
+		</div>
+
+		<div id= "dnum"> 
+			<strong> PHONE NUMBER </strong> <br> 
+			<input type="text" id="num" onmouseleave="showexp()">
+		</div>
+
+		<div id="dexp">
+			<strong> YEARS OF EXPERIENCE</strong> <br>
+			<input type="text" id="exp" onmouseleave="showabout()">
+		</div>
+
+		<div id="dabout">
+			<strong>ABOUT YOU </strong> <br>
+			<input type="text" id="about" onmouseleave="showstat()" maxlength= "140">
+		</div>
+
+		<div id="dstat">
+			<strong> MARITAL STATUS </strong><br>
+			<input type="text" id="stat">
+		</div>
+</body>
+</html>

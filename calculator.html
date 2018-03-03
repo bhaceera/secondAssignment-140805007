@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title> Calculator </title>
+    <script src="calc.js"></script>
+</head>
+    
+<body>
+    <div class="box">
+        <input type="text" name= "display" style="width: 255px;height: 40px" id="display" disabled> <br> <br>
+
+        <div id = "numbers">
+            <input type="button" value="AC" id="num" onclick= "display.value ='' "> 
+             <input type="button" value="DEL" onclick="backspace(display)">
+            <input type="button" value="." id="num" onclick= "show(this.value)"><br>
+            <input type="button" value="1" id="num" onclick= "show(1)">
+            <input type="button" value="2" id="num" onclick= "show(2)">
+            <input type="button" value="3" id="num" onclick= "show(3)"> <br>
+            <input type="button" value="4" id="num" onclick= "show(4)">
+            <input type="button" value="5" id="num" onclick= "show(5)">
+            <input type="button" value="6" id="num" onclick= "show(6)"> <br>
+            <input type="button" value="7" id="num" onclick= "show(7)">
+            <input type="button" value="8" id="num" onclick= "show(8)">
+            <input type="button" value="9" id="num" onclick= "show(9)"><br>
+            <input type="button" value="(" id="num" onclick= "show(this.value)">
+            <input type="button" value="0" id="num" onclick= "show(0)">
+            <input type="button" value=")" id="num" onclick= "show(this.value)">
+       </div> <br>
+
+       <div id = "operators">
+            <input type="button" value="x" onclick= "mult(display,'*')">
+             <input type="button" value="sqr" onclick= "sqr(display)">
+            <input type="button" value="-" onclick= "sub(display)"> <br>
+            <input type="button" value="/" onclick= "div(display,'/')">
+            <input type="button" value="sin"  onclick="sin(display)"> 
+            <input type="button" value="cos" onclick="cos(display)"> <br>
+            <input type="button" value="tan" onclick="tan(display)">
+            <input type="button" value="log" onclick="log(display)"> 
+            <input type="button" value="sqrt" onclick="sqrt(display)"> <br>
+            <input type="button" value="=" onclick="equals(display)">
+            <input type="button" value="pi" id="num" onclick= "pi(display)">
+            <input type="button" value="+" style="height: 60px" onclick= "addition(display,'+')" >
+        </div>  
+    </div>
+</body>
+</html> 

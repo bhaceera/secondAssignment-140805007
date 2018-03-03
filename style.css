@@ -1,0 +1,42 @@
+#numbers{
+    width: 260px;
+    margin-right: auto;
+    height: 150px;
+}
+#operators{
+    margin-right: auto;
+    height:150px;
+    width:260px; 
+    
+}
+body{
+	margin-right: auto;
+    background-size: 100%;
+    text-align: center;
+}
+#display{
+	width: 255px;
+	height: 40px;
+	background-color: lightgrey;
+	color: grey;
+}
+.box{
+	width: 300px;
+    padding:20px;
+    background-color:violet;
+    margin-right: auto;
+}
+#numbers input{
+	width: 50px;
+    height: 30px;
+    color: chocolate;
+    background-color: pink;
+
+}
+#operators input{
+	width: 50px;
+    height: 30px;
+    color: chocolate;
+    background-color: pink;
+}
+
